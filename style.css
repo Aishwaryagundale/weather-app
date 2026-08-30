@@ -1,0 +1,22 @@
+ html{
+        font-family: sans-serif;
+    }
+    header{
+        height: 100px;
+        background-color: slategray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main{
+      height: calc( 100vh - 100px );
+     background-color: rgb(17, 16, 16);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+    }
+    .location-container{
+        display: flex;
+       gap: 1rem;
+    }
